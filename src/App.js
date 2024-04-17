@@ -49,7 +49,7 @@ function App() {
       setInput('');
       setWeather({ ...weather, loading: true });
       const url = 'https://api.openweathermap.org/data/2.5/weather';
-      const api_key = 'c27d68657a5ae5bc7826be534ddd018b';
+      const api_key = 'plug your key here';
       await axios
         .get(url, {
           params: {
